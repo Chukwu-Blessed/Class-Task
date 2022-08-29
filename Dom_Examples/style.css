@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  margin: 1rem;
+}
+
+input {
+  width: 20rem;
+  height: 2rem;
+  border-radius: 1rem;
+  border-color: rgb(211, 211, 211);
+  border-style: solid;
+  box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.06);
+  margin: 1rem;
+}
+
+input::placeholder {
+  font-family: Roboto, Arial;
+  font-size: 16px;
+}
+
+input, textarea {
+  background-color:clean whitesmoke;
+  text-align: center;
+}
+
+.calc_btn {
+  background: rgb(230, 229, 229);
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(189, 188, 188);
+  border-radius: 27px;
+  height: 33px;
+  color: rgb(46, 46, 46);
+  font-family: Roboto, San serif;
+  font-size: 14px;
+  font-weight: 500;
+  width: 9rem;
+}
+
+.arithmetic {
+  width: 9rem;
+  height: 2rem;
+  border-radius: 1rem;
+  border-color: rgb(211, 211, 211);
+  border-style: solid;
+  box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.06);
+  text-align: center;
+}
+
+.error {
+  color: red;
+}
