@@ -1,0 +1,89 @@
+* {
+  border: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  border: 0;
+  margin: 0;
+}
+
+.head_section {
+  background: rgb(141, 141, 231);
+  height: 5rem;
+  text-align: center;
+  padding: 1rem;
+  margin-bottom: 2rem;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.search {
+  margin-bottom: 2rem;
+}
+
+.search_bar {
+  height: 3rem;
+  border: .05rem solid grey;
+  border-radius: 3rem;
+  width: 25rem;
+  margin-right: .5rem;
+}
+
+.search_bar::placeholder {
+  padding: 1rem;
+  font-size: 1rem;
+}
+
+.search_btn {
+  height: 3rem;
+  width: 7rem;
+  border-radius: 3rem;
+  background: rgb(135, 135, 201);
+  color: #fff;
+  font-size: .8rem;
+  font-weight: bold;
+}
+
+.body_content {
+  display: flex;
+  border: .1rem solid grey;
+  border-radius: .03rem;
+  height: 25rem;
+  width: 40rem;
+  padding: 1rem;
+}
+
+.user_profile_pic {
+  width: 100%;
+  height:80%;
+  margin-top: 2rem;
+}
+
+.follow {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-left: 3rem;
+}
+
+p {
+  font-size: 2rem;
+  font-weight: bold;
+  background: rgb(70, 70, 124);
+  color: white;
+  border-radius: 1rem;
+  width: 15rem;
+}
+
+.followers {
+  margin: 1rem;
+}
