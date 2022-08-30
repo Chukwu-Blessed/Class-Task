@@ -45,7 +45,7 @@ getAllCurrency();
 
 # Worknig-With-APIs (Second Part)
 
-This ripository is an illustration to how to fetch API's using the fetch() keyword and the then() method.
+This part is also an illustration to how to fetch API's using the fetch() keyword and the then() method.
 This reppo is dividded into three API calls, which the required data needed was then appended into the HTML file to be displayed in the browser.
 
 
